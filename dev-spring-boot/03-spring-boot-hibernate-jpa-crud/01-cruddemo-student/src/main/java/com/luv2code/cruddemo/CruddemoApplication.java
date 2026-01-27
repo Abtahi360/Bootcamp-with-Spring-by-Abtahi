@@ -106,12 +106,10 @@ public class CruddemoApplication {
         Student tempStudent1 = new Student("Abtahi", "Islam", "abtahiislam@gmail.com");
         Student tempStudent2 = new Student("Rahim", "Islam", "rahimislam@gmail.com");
         Student tempStudent3 = new Student("Korim", "Islam", "korimislam@gmail.com");
-        Student tempStudent4 = new Student("Korim", "Islam", "korimislam@gmail.com");
-        Student tempStudent5 = new Student("Korim", "Islam", "korimislam@gmail.com");
-        Student tempStudent6 = new Student("Korim", "Islam", "korimislam@gmail.com");
-        Student tempStudent7 = new Student("Korim", "Islam", "korimislam@gmail.com");
-
-
+        Student tempStudent4 = new Student("Afiya", "Khatun", "afiya@gmail.com");
+        Student tempStudent5 = new Student("Lotif", "Bissus", "lotif@gmail.com");
+        Student tempStudent6 = new Student("Asadul", "Islam", "asadulislam@gmail.com");
+        Student tempStudent7 = new Student("Koorrriiimmm", "Islam", "kooorrriimmm@gmail.com");
 
 
         // save the student objects
@@ -119,6 +117,10 @@ public class CruddemoApplication {
         studentDAO.save(tempStudent1);
         studentDAO.save(tempStudent2);
         studentDAO.save(tempStudent3);
+        studentDAO.save(tempStudent4);
+        studentDAO.save(tempStudent5);
+        studentDAO.save(tempStudent6);
+        studentDAO.save(tempStudent7);
     }
 
     private void createStudent(StudentDAO studentDAO) {
