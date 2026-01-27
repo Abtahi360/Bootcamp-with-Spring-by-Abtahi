@@ -2,11 +2,9 @@ package com.luv2code.cruddemo;
 
 import com.luv2code.cruddemo.dao.StudentDAO;
 import com.luv2code.cruddemo.entity.Student;
-import org.hibernate.boot.archive.scan.spi.ScanOptions;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 import java.util.List;
@@ -14,20 +12,23 @@ import java.util.List;
 @SpringBootApplication
 public class CruddemoApplication {
 
-	public static void main(String[] args) {
+	static void main(String[] args) {
         SpringApplication.run(CruddemoApplication.class, args);
     }
 
     @Bean
     public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {
         return runner ->{
-            createMultipleStudents(studentDAO);
+             createMultipleStudents(studentDAO);
             // readStudent(studentDAO);
             // queryForStudents(studentDAO);
             // queryForStudentsByLastName(studentDAO);
             // updateStudent(studentDAO);
             // deleteStudent(studentDAO);
             // deleteAllStudents(studentDAO);
+
+
+
 
         };
     }
