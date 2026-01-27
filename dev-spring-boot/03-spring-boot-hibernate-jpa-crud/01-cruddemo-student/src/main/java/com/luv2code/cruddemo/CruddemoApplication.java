@@ -21,15 +21,22 @@ public class CruddemoApplication {
     @Bean
     public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {
         return runner ->{
-            // createMultipleStudents(studentDAO);
+            createMultipleStudents(studentDAO);
             // readStudent(studentDAO);
             // queryForStudents(studentDAO);
             // queryForStudentsByLastName(studentDAO);
             // updateStudent(studentDAO);
-            deleteStudent(studentDAO);
-
+            // deleteStudent(studentDAO);
+            // deleteAllStudents(studentDAO);
 
         };
+    }
+
+    private void deleteAllStudents(StudentDAO studentDAO) {
+
+        System.out.println("Deleting all students...");
+        int numRowsDeleted = studentDAO.deleteAll();
+        System.out.println("Deleted " + numRowsDeleted + " students.");
     }
 
     private void deleteStudent(StudentDAO studentDAO) {
@@ -99,9 +106,16 @@ public class CruddemoApplication {
         Student tempStudent1 = new Student("Abtahi", "Islam", "abtahiislam@gmail.com");
         Student tempStudent2 = new Student("Rahim", "Islam", "rahimislam@gmail.com");
         Student tempStudent3 = new Student("Korim", "Islam", "korimislam@gmail.com");
+        Student tempStudent4 = new Student("Korim", "Islam", "korimislam@gmail.com");
+        Student tempStudent5 = new Student("Korim", "Islam", "korimislam@gmail.com");
+        Student tempStudent6 = new Student("Korim", "Islam", "korimislam@gmail.com");
+        Student tempStudent7 = new Student("Korim", "Islam", "korimislam@gmail.com");
+
+
+
 
         // save the student objects
-        System.out.println("Saving 3 student objects..!");
+        System.out.println("Saving 7 student objects..!");
         studentDAO.save(tempStudent1);
         studentDAO.save(tempStudent2);
         studentDAO.save(tempStudent3);
