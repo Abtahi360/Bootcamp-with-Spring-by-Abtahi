@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/01-spring-boot-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/02-dev-tools-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/03-actuator-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/04-actuator-security-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/05-command-line-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/06-properties-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/01-constructor-injection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/02-component-scanning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/03-setter-injection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/04-qualifiers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/05-primary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/06-lazy-initialization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/07-bean-scopes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/08-bean-lifecycle-methods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/09-java-config-bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-spring-boot/03-spring-boot-hibernate-jpa-crud/01-cruddemo-student/src/main/java" charset="UTF-8" />
+  </component>
+</project>

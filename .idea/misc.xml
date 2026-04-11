@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/03-actuator-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/02-dev-tools-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/06-properties-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/01-spring-boot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/05-command-line-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/01-spring-boot-overview/04-actuator-security-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/05-primary/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/04-qualifiers/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/07-bean-scopes/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/03-setter-injection/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/09-java-config-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/02-component-scanning/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/06-lazy-initialization/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/01-constructor-injection/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/02-spring-boot-spring-core/08-bean-lifecycle-methods/pom.xml" />
+        <option value="$PROJECT_DIR$/dev-spring-boot/03-spring-boot-hibernate-jpa-crud/01-cruddemo-student/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="openjdk-25" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
